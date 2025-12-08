@@ -6,7 +6,7 @@ class Iklanbanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<String> bannerSlide = [
-      "assets/banner-4.png",
+      "assets/banner-16.png",
       "assets/lost.jpg",
       "assets/do-we.jpg",
       "assets/me-too.jpg",
@@ -22,7 +22,7 @@ class Iklanbanner extends StatelessWidget {
             width: double.infinity,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              image: DecorationImage(image: AssetImage("assets/banner-4.png")),
+              image: DecorationImage(image: AssetImage("assets/banner-15.png")),
             ),
           );
         },

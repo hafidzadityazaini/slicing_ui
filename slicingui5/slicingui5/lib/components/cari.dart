@@ -35,9 +35,9 @@ class Cari extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.black.withAlpha(100),
             borderRadius: BorderRadius.circular(5),
-            border: Border.all(color: ClassName.color5, width: 0.8),
+            border: Border.all(color: ClassName.color2, width: 0.8),
           ),
-          child: Image.asset("assets/icons/scan.png"),
+          child: Image.asset("assets/card-scan 1.png"),
         ),
         Container(
           height: 35,
@@ -48,7 +48,7 @@ class Cari extends StatelessWidget {
             borderRadius: BorderRadius.circular(5),
             border: Border.all(color: ClassName.color5, width: 0.8),
           ),
-          child: Image.asset("assets/icons/favorite.png"),
+          child: Image.asset("assets/favorite 1.png"),
         ),
       ],
     );

@@ -15,7 +15,7 @@ class Card01 extends StatelessWidget {
             //ini yang pertama
             Komponentcard(
               text: "3.869",
-              icons: "assets/dollar.png",
+              icons: "assets/dollar 1.png",
               warna: Colors.blueAccent,
               labels: "Tukar Point",
             ),
@@ -24,7 +24,7 @@ class Card01 extends StatelessWidget {
             SizedBox(height: 20, child: VerticalDivider()),
             Komponentcard(
               text: "9",
-              icons: "assets/voucher-1.png",
+              icons: "assets/voucher 1.png",
               warna: Colors.black,
               labels: "Voucher",
             ),
@@ -33,7 +33,7 @@ class Card01 extends StatelessWidget {
             SizedBox(height: 20, child: VerticalDivider()),
             Komponentcard(
               text: "2",
-              icons: "assets/stamp-1.png",
+              icons: "assets/stamp 1.png",
               warna: Colors.black,
               labels: "Stamp",
             ),
@@ -42,7 +42,7 @@ class Card01 extends StatelessWidget {
             SizedBox(height: 20, child: VerticalDivider()),
             Komponentcard(
               text: "0",
-              icons: "assets/star-1.png",
+              icons: "assets/star (1) 1.png",
               warna: Colors.black,
               labels: "Star",
             ),
@@ -53,7 +53,7 @@ class Card01 extends StatelessWidget {
         Row(
           spacing: 5,
           children: [
-            Image.asset("assets/V.png", height: 15),
+            Image.asset("assets/Group 16.png", height: 15),
             Text(
               "Hubungkan Virgo",
               style: GoogleFonts.openSans(
@@ -72,7 +72,7 @@ class Card01 extends StatelessWidget {
               child: Row(
                 spacing: 5,
                 children: [
-                  Image.asset("assets/product-1.png", height: 13),
+                  Image.asset("assets/product 1.png", height: 13),
                   Text(
                     "Barcode Member",
                     style: GoogleFonts.openSans(

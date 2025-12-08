@@ -10,7 +10,7 @@ class Flashsale extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: EdgeInsets.fromLTRB(20, 20, 0, 20),
-      decoration: BoxDecoration(color: ClassName.colors3),
+      decoration: BoxDecoration(color: ClassName.color2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -19,7 +19,7 @@ class Flashsale extends StatelessWidget {
             style: GoogleFonts.poppins(
               fontSize: 14,
               fontWeight: FontWeight.w600,
-              color: Colors.red,
+              color: Colors.black,
             ),
           ),
           SizedBox(height: 15),
@@ -29,7 +29,7 @@ class Flashsale extends StatelessWidget {
               spacing: 10,
               children: [
                 KontenFL(
-                  image: "assets/ana.JPG",
+                  image: "assets/kinderjoy.png",
                   title: "Kinder Joy 65 gram",
                   desc1: "Kinder Joy jajanan anak kekinian",
                   desc2: "Merek Kinder warna merah",
@@ -37,7 +37,7 @@ class Flashsale extends StatelessWidget {
                   status: "Product online",
                 ),
                 KontenFL(
-                  image: "assets/ana.JPG",
+                  image: "assets/corolla.png",
                   title: "Ferrero Rocher",
                   desc1: "Cokelat premium Eropa",
                   desc2: "Cita rasa khas Italia",
@@ -45,7 +45,7 @@ class Flashsale extends StatelessWidget {
                   status: "Ready stock",
                 ),
                 KontenFL(
-                  image: "assets/ana.JPG",
+                  image: "assets/oreo.png",
                   title: "Oreo Softcake",
                   desc1: "Cemilan lembut manis",
                   desc2: "Varian coklat terbaru",
@@ -102,7 +102,7 @@ class KontenFL extends StatelessWidget {
             margin: const EdgeInsets.symmetric(vertical: 10),
             width: double.infinity,
             decoration: BoxDecoration(
-              color: ClassName.colors1,
+              color: ClassName.color2,
               borderRadius: const BorderRadius.only(
                 topRight: Radius.circular(25),
               ),
@@ -112,7 +112,7 @@ class KontenFL extends StatelessWidget {
                 title,
                 style: GoogleFonts.openSans(
                   fontSize: 8,
-                  color: ClassName.colors5,
+                  color: ClassName.color2,
                 ),
               ),
             ),

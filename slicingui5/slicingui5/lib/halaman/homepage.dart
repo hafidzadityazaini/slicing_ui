@@ -11,13 +11,13 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ClassName.colors3,
+      backgroundColor: ClassName.color3,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
             children: [
               Appbar(),
-                   SizedBox(height: 50),
+                   SizedBox(height: 150),
               //ini bagian iklan banner
               Iklanbanner(),
               SizedBox(height: 10),

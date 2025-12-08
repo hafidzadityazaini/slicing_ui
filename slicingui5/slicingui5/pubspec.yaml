@@ -68,6 +68,12 @@ flutter:
     - assets/stamp 1.png
     - assets/star (1) 1.png
     - assets/voucher 1.png
+    - assets/oreo.png
+    - assets/kinderjoy.png
+    - assets/corolla.png
+    - assets/banner-15.png
+    - assets/banner-16.png
+    - assets/banner-17.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

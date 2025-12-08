@@ -24,12 +24,21 @@ class Menuapps extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
-              Componentmenu(iconapps: "assets/dollar.png", labels: "blabla"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "product online"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "kalkulator zat"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "tagihan"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "gift card"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "bonus paket"),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "produk online"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "kalkulator zat"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "tagihan"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "gift card"),
+              Componentmenu(iconapps: "assets/dollar 1.png", labels: "bonus paket"),
             ],
           ),
         ],
